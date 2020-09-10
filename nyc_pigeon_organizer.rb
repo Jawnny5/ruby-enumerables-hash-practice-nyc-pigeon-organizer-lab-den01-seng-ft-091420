@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   data.each_with_object({}) do |(key, val), organizer|
     #binding.pry
     val.each do |color, name|
-      name.each do |names|
+      name.each do |innername|
         binding.pry
       end
     end
