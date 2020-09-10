@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
         if !organizer[name][key]
           !organizer[name][key] = []
         end
-        organizer[name][key].push(color)
+        organizer[name][key].push(color.to_s)
       end
     end
   end
